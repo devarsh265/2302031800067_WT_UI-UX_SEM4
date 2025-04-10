@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Moon Landing",
+        "description": "Neil Armstrong walked on the moon.",
+        "year": "1969"
+    },
+    {
+        "title": "Fall of Berlin Wall",
+        "description": "The Berlin Wall was brought down.",
+        "year": "1989"
+    }
+]

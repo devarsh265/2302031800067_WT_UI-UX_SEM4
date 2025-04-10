@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Time Capsule</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Historical Time Capsule</h1>
+
+    <section id="explore">
+        <h2>Explore Events</h2>
+        <input type="number" id="filter-year" placeholder="Enter Year to Filter">
+        <button onclick="filterEvents()">Filter</button>
+        <ul id="event-list" class="event-list"></ul>
+    </section>
+
+    <section id="contribute">
+        <h2>Contribute a Story</h2>
+        <form id="contribute-form">
+            <input type="text" id="title" placeholder="Event Title" required><br>
+            <textarea id="description" placeholder="Description" required></textarea><br>
+            <input type="text" id="year" placeholder="Year" required><br>
+            <input type="url" id="image" placeholder="Photo URL (optional)"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

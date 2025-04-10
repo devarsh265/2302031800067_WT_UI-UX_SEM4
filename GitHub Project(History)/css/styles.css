@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+form input,
+form textarea {
+    margin: 5px 0;
+    padding: 8px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-list li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #007acc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-list img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
