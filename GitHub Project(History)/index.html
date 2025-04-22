@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Time Capsule</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>History Time Capsule</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
-    <h1>Historical Time Capsule</h1>
+  <header>
+    <h1>History Time Capsule</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="ancient.html">Ancient</a>
+      <a href="medieval.html">Medieval</a>
+      <a href="modern.html">Modern</a>
+      <a href="personalities.html">Figures</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contribute.html">Contribute</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    <section id="explore">
-        <h2>Explore Events</h2>
-        <input type="number" id="filter-year" placeholder="Enter Year to Filter">
-        <button onclick="filterEvents()">Filter</button>
-        <ul id="event-list" class="event-list"></ul>
-    </section>
+  <main>
+    <h2>Welcome to the History Time Capsule</h2>
+    <p>Explore the moments that shaped our world, one era at a time.</p>
+  </main>
 
-    <section id="contribute">
-        <h2>Contribute a Story</h2>
-        <form id="contribute-form">
-            <input type="text" id="title" placeholder="Event Title" required><br>
-            <textarea id="description" placeholder="Description" required></textarea><br>
-            <input type="text" id="year" placeholder="Year" required><br>
-            <input type="url" id="image" placeholder="Photo URL (optional)"><br>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
-
-    <script src="js/app.js"></script>
+  <footer>
+    <p>&copy; 2025 History Time Capsule. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>
